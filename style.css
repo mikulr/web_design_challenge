@@ -1,1 +1,14 @@
-<h1 class="display-1">
+body{
+    background-color: #758D99;
+}
+
+.box {
+    height: 400px;
+    padding: 60px;
+    color: whitesmoke;
+    background: #006ba2;
+  }
+  
+  .margin-top-80 {
+    margin-top: 80px;
+  }
