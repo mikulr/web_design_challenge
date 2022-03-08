@@ -1,14 +1,13 @@
 body{
-    background-color: #758D99;
+  background: #758D99;
 }
 
 .box {
-    height: 400px;
     padding: 60px;
     color: whitesmoke;
     background: #006ba2;
   }
-  
-  .margin-top-80 {
-    margin-top: 80px;
-  }
+
+  .card-text {color: #758D99;}
+  .card-body {
+    background-color: #006ba2;}
