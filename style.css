@@ -2,10 +2,10 @@ body{
   background:#E9EDF0
 }
 
+.comp_container{background: #006ba2}
 
-{
-  background: #758D99;
-}
+
+.page_header{padding:20px;}
 
 
 .box {padding: 40px;
@@ -23,6 +23,19 @@ h3 {
   color:#E9EDF0;
 
 }
+.main_vis{ padding: 10px;
+  background-color: #006ba2;}
 
 .card-body {
     background-color: #006ba2;}
+
+.no-gutters {
+      margin-right: 0;
+      margin-left: 0;
+    
+      > .col,
+      > [class*="col-"] {
+        padding-right: 0;
+        padding-left: 0;
+      }
+    }

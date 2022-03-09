@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Comparison Page</title>
+    <title>Budget Analysis</title>
     <!-- reset style sheet to set baseline-->
     <link rel="stylesheet" href="reset.css">
     <!-- Bootstrap and Bootstrap icons-->
@@ -56,85 +56,35 @@
     <!-- Top Line Header-->
     <div class="container">
         <div class="page_header">
-            <h1 class="display-3 text-center">Overview Page</h1>
-        </div>
+        <h1 class="display-3 text-center">Budget Analysis</h1>
+    </div>
     </div>
     <!-- Main page Content-->
-    <div>
-        <p class="" lead"> Click on any image to see more information.</p>
-    </div>
-
-    <div class="comp_container">
+    <div class="container">
         <div class="row">
-            <div class="col-md-6">
-                <div class="thumbnail">
-                    <a href="actors.html" class="text-decoration-none">
-                        <img src="assets/actors_bar.png" alt="..." class="img-thumbnail float-right">
-                        <h3 class="lead text-center">Actors</h3>
-                    </a>
+            <div class="col-md-12">
+                <div class="main_vis">
+                    <img src="assets/budget_regression.png" class="img-fluid" alt="Budget Regression">   
+                </div>
+                <div class="box">
+                    <p class="lead">What impact does budget have on a films revenue?</p>
+                    <p>Surprisingly, not as much as you might imagine! As you can see in the regression above, the r-squared score of 0.46 indicates a 
+                        low correlation between them money you spend and the box office results generated.</p>
                 </div>
             </div>
-            <div class="col-md-6">
-                <div class="thumbnail">
-                    <a href="budget.html" class="text-decoration-none">
-                        <img src="assets/budget_regression.png" alt="..." class="img-thumbnail float-left">
-                        <h3 class="lead text-center">Budgets</h3>
-                    </a>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-md-6">
-                    <div class="thumbnail">
-                        <a href="genres.html" class="text-decoration-none">
-                            <img src="assets/revenue_by_genre.png" alt="..." class="img-thumbnail float-left">
-                            <h3 class="lead text-center">Genres</h3>
-                        </a>
-                    </div>
-                </div>
-            
-            <div class="col-md-6">
-                <div class="thumbnail">
-                    <a href="oscar_win.html" class="text-decoration-none">
-                        <img src="assets/2018_oscars_pie.png" alt="..." class="img-thumbnail float-right">
-                        <h3 class="lead text-center">Oscar Winning Films</h3>
-                    </a>
-                </div>
-            </div>
-            <div class="row"></div>
-            <div class="col-md-6">
-                <div class="thumbnail">
-                    <a href="oscar_nom.html" class="text-decoration-none">
-                        <img src="assets/oscar_actors_bar.png" alt="..." class="img-thumbnail float-left">
-                        <h3 class="lead text-center">Oscar Winning Actors</h3>
-                    </a>
-                </div>
-            </div>
-            <div class="col-md-6">
-                <div class="thumbnail">
-                    <a href="oscar_nom.html" class="text-decoration-none">
-                        <img src="assets/oscar_impact_boxplot.png" alt="..." class="img-thumbnail float-right">
-                        <h3 class="lead text-center">Oscar Nominees</h3>
-                    </a>
-                </div>
-            </div>
-        </div>
-    </div>
-    </div>
-    </div>
+      
+
 
 
     <div class="container">
         <footer class="py-3 my-4">
             <ul class="nav justify-content-center border-bottom pb-3 mb-3">
                 <i class="bi bi-film"></i>
-                <li class="nav-item"><a href="index.html" class="nav-link px-2 text-danger">Home</a>
-                </li>
+                <li class="nav-item"><a href="index.html" class="nav-link px-2 text-danger">Home</a></li>
                 <li class="nav-item"><a href="data.html" class="nav-link px-2 text-danger">Data</a></li>
                 <li class="nav-item"><a href="comparison.html" class="nav-link px-2 text-danger">Comparisons</a></li>
-                <li class="nav-item"><a href="quiet.html" class="nav-link px-2 text-danger">Billy
-                        Zane?</a></li>
-                <li class="nav-item"><a href="https://github.com/mikulr/Project_1" class="nav-link px-2 text-danger">Repo</a>
-                </li>
+                <li class="nav-item"><a href="quiet.html" class="nav-link px-2 text-danger">Billy Zane?</a></li>
+                <li class="nav-item"><a href="https://github.com/mikulr/Project_1" class="nav-link px-2 text-danger">Repo</a></li>
                 <i class="bi bi-film"></i>
             </ul>
             <p class="text-center text-muted">Ska, Ska, Ska</p>
