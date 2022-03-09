@@ -1,13 +1,28 @@
 body{
+  background:#E9EDF0
+}
+
+
+{
   background: #758D99;
 }
 
-.box {
-    padding: 60px;
-    color: whitesmoke;
+
+.box {padding: 40px;
+  background: #758D99;
+color: #E9EDF0 }
+
+.thumbnail {
+    padding: 6px;
     background: #006ba2;
   }
 
-  .card-text {color: #758D99;}
-  .card-body {
+.card-text {color: #758D99;}
+
+h3 {
+  color:#E9EDF0;
+
+}
+
+.card-body {
     background-color: #006ba2;}
